@@ -31,7 +31,7 @@ btn.addEventListener("click",(e) =>{
     // edit button
     const editButton = document.createElement("button")
     editButton.textContent="Edit"
-    editButton.classList.add("bg-orange-400","hover:bg-orange-300","px-3","py-1", "rounded-lg")
+    editButton.classList.add("bg-green-400","hover:bg-orange-300","px-3","py-1", "rounded-lg")
     // li.appendChild(editButton)
     
     // create a div for delete and edit button
