@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Document</title>
+</head>
+<body class="bg-stone-900">
+   <div class="bg-stone-900 text-gray-300 min-h-screen min-w-screen">
+    <h1 class="text-3xl text-center py-3 font-bold text-cyan-500">ToDo App</h1>
+    <div  class="w-full flex flex-col items-center mt-10">
+        <form action="">
+        <input id="input" type="text" placeholder="Enter your task" class="bg-stone-700 px-4 py-2 w-60 md:w-96 border-none outline-none rounded-lg tracking-wider">
+        <button id="Btn1" type="submit" class="bg-sky-800 hover:bg-sky-600 px-6 py-2 rounded-lg">Submit</button>
+    </form>
+    <section class="mt-10 ml-10">
+        <h1 class="text-start text-2xl font-bold text-purple-500 w-[460px] text-sky-700 mb-3">Task List</h1>
+        <ul id="ul" class="flex flex-col gap-3">
+            <!--your list comes here -->
+        </ul>
+    </section>
+    </div>
+    
+    
+   </div>
+    <script src="todo.js"></script>
+</body>
+</html>
